@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xiangmuinfo biaoduanno="cs20240307-A1" biaoduanname="【国泰测试】需求文件自定义测试项目">
+	<hwmxNew>
+		<hwmxCols>
+			<hwmxCol width="50" type="1" readOnly="true" header="序号" field="bh" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="项目名称" field="mc" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="数量" field="sl" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="单位" field="dw" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="所属行业" field="hy" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="是否强制节能" field="qzjn" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="是否核心产品" field="hxcp" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="是否接受进口" field="jk" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="重要程度" field="zycd" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="指标需求" field="zbxq" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="参考图片" field="cktp" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<hwmxCol width="50" type="1" readOnly="true" header="品牌" field="pp" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+		</hwmxCols>
+		<tbhwmxCols>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="名称" field="xmmc" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="数量壹" field="sly" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="单位壹" field="dwy" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="行业" field="sshy" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="强制节能" field="jn" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="核心产品" field="cp" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="进口" field="jsjk" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="重要程度壹" field="zd" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<tbhwmxCol width="50" type="1" readOnly="false" header="指标需求壹" field="xqzb" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+		</tbhwmxCols>
+		<hwmxRows>
+			<hwmxRow bh="2.1" mc="计算机" sl="1" dw="台" hy="软件和信息技术服务业" qzjn="否" hxcp="是" jk="否" zycd="一般" zbxq="酷睿i7  9700" cktp="测试" pp="华为"/>
+			<hwmxRow bh="2.1" mc="计算机" sl="1" dw="台" hy="软件和信息技术服务业" qzjn="否" hxcp="是" jk="否" zycd="一般" zbxq="固态硬盘256G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.1" mc="计算机" sl="1" dw="台" hy="软件和信息技术服务业" qzjn="否" hxcp="是" jk="否" zycd="★" zbxq="16G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.2" mc="办公桌" sl="2" dw="台" hy="交通运输业" qzjn="是" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9700" cktp="测试" pp="红木"/>
+			<hwmxRow bh="2.2" mc="办公桌" sl="2" dw="台" hy="交通运输业" qzjn="是" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘256G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.2" mc="办公桌" sl="2" dw="台" hy="交通运输业" qzjn="是" hxcp="否" jk="否" zycd="一般" zbxq="16G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.3" mc="键盘" sl="3" dw="台" hy="仓储业" qzjn="否" hxcp="否" jk="否" zycd="△" zbxq="酷睿i7  9700" cktp="测试" pp="华为"/>
+			<hwmxRow bh="2.3" mc="键盘" sl="3" dw="台" hy="仓储业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘256G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.3" mc="键盘" sl="3" dw="台" hy="仓储业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="16G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.4" mc="鼠标" sl="4" dw="台" hy="邮政业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9700" cktp="测试" pp="华为"/>
+			<hwmxRow bh="2.4" mc="鼠标" sl="4" dw="台" hy="邮政业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘256G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.4" mc="鼠标" sl="4" dw="台" hy="邮政业" qzjn="否" hxcp="否" jk="否" zycd="△" zbxq="16G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.5" mc="耳机" sl="5" dw="个" hy="软件和信息技术服务业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9701" cktp="测试" pp="华为"/>
+			<hwmxRow bh="2.5" mc="耳机" sl="5" dw="个" hy="软件和信息技术服务业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘257G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9702" cktp="测试" pp="华为"/>
+			<hwmxRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘258G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9703" cktp="测试" pp="华为"/>
+			<hwmxRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘259G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9704" cktp="测试" pp="华为"/>
+			<hwmxRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘260G" cktp="测试" pp=""/>
+			<hwmxRow bh="2.9" mc="耳机" sl="9" dw="个" hy="物业管理" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9705" cktp="测试" pp="华为"/>
+			<hwmxRow bh="2.9" mc="耳机" sl="9" dw="个" hy="物业管理" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘261G" cktp="测试" pp=""/>
+		</hwmxRows>
+	</hwmxNew>
+	<fwmxNew>
+		<fwmxCols>
+			<fwmxCol width="50" type="1" readOnly="true" header="序号" field="bh" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<fwmxCol width="50" type="1" readOnly="true" header="服务名称" field="mc" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<fwmxCol width="50" type="1" readOnly="true" header="数量" field="sl" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<fwmxCol width="50" type="1" readOnly="true" header="单位" field="dw" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<fwmxCol width="50" type="1" readOnly="true" header="重要程度" field="zycd" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<fwmxCol width="50" type="1" readOnly="true" header="指标需求" field="zbxq" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<fwmxCol width="50" type="1" readOnly="true" header="品牌" field="pp" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+		</fwmxCols>
+		<tbfwmxCols>
+			<tbfwmxCol width="50" type="1" readOnly="false" header="名称" field="fwmc" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbfwmxCol width="50" type="1" readOnly="false" header="个数" field="gs" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbfwmxCol width="50" type="1" readOnly="false" header="单位壹" field="dwy" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbfwmxCol width="50" type="1" readOnly="false" header="重要" field="zd" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<tbfwmxCol width="50" type="1" readOnly="false" header="需求指标" field="xqzb" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+		</tbfwmxCols>
+		<fwmxRows>
+			<fwmxRow bh="2.1" mc="子系统1" sl="1" dw="套" zycd="△" zbxq="功能1" pp="华为"/>
+			<fwmxRow bh="2.1" mc="子系统1" sl="1" dw="套" zycd="一般" zbxq="功能2" pp="华为"/>
+			<fwmxRow bh="2.1" mc="子系统1" sl="1" dw="套" zycd="★" zbxq="功能3" pp="华为"/>
+			<fwmxRow bh="2.2" mc="子系统2" sl="1" dw="套" zycd="一般" zbxq="功能1" pp="华为"/>
+			<fwmxRow bh="2.2" mc="子系统2" sl="1" dw="套" zycd="一般" zbxq="功能2" pp="华为"/>
+			<fwmxRow bh="2.2" mc="子系统2" sl="1" dw="套" zycd="一般" zbxq="功能3" pp="华为"/>
+			<fwmxRow bh="2.3" mc="子系统3" sl="1" dw="套" zycd="一般" zbxq="功能1" pp="华为"/>
+			<fwmxRow bh="2.3" mc="子系统3" sl="1" dw="套" zycd="一般" zbxq="功能2" pp="华为"/>
+			<fwmxRow bh="2.3" mc="子系统3" sl="1" dw="套" zycd="一般" zbxq="功能3" pp="华为"/>
+			<fwmxRow bh="2.4" mc="其他" sl="1" dw="套" zycd="一般" zbxq="集成" pp="华为"/>
+			<fwmxRow bh="2.4" mc="其他" sl="1" dw="套" zycd="一般" zbxq="对接接口" pp="华为"/>
+			<fwmxRow bh="2.4" mc="其他" sl="1" dw="套" zycd="一般" zbxq="测评" pp="华为"/>
+			<fwmxRow bh="2.4" mc="其他" sl="1" dw="套" zycd="一般" zbxq="功能测试" pp="华为"/>
+			<fwmxRow bh="2.5" mc="子系统4" sl="1" dw="套" zycd="△" zbxq="功能1" pp="华为"/>
+			<fwmxRow bh="2.5" mc="子系统4" sl="1" dw="套" zycd="一般" zbxq="功能2" pp="华为"/>
+			<fwmxRow bh="2.5" mc="子系统4" sl="1" dw="套" zycd="★" zbxq="功能3" pp="华为"/>
+			<fwmxRow bh="2.6" mc="子系统5" sl="1" dw="套" zycd="一般" zbxq="功能1" pp="华为"/>
+			<fwmxRow bh="2.6" mc="子系统5" sl="1" dw="套" zycd="一般" zbxq="功能2" pp="华为"/>
+			<fwmxRow bh="2.6" mc="子系统5" sl="1" dw="套" zycd="一般" zbxq="功能3" pp="华为"/>
+			<fwmxRow bh="2.7" mc="子系统6" sl="1" dw="套" zycd="一般" zbxq="功能1" pp="华为"/>
+			<fwmxRow bh="2.7" mc="子系统6" sl="1" dw="套" zycd="一般" zbxq="功能2" pp="华为"/>
+			<fwmxRow bh="2.7" mc="子系统6" sl="1" dw="套" zycd="一般" zbxq="功能3" pp="华为"/>
+			<fwmxRow bh="2.8" mc="其他" sl="1" dw="套" zycd="一般" zbxq="集成" pp="华为"/>
+			<fwmxRow bh="2.8" mc="其他" sl="1" dw="套" zycd="一般" zbxq="对接接口" pp="华为"/>
+			<fwmxRow bh="2.8" mc="其他" sl="1" dw="套" zycd="一般" zbxq="测评" pp="华为"/>
+			<fwmxRow bh="2.8" mc="其他" sl="1" dw="套" zycd="一般" zbxq="功能测试" pp="华为"/>
+		</fwmxRows>
+	</fwmxNew>
+	<fwyqNew>
+		<fwyqCols>
+			<fwyqCol width="50" type="1" readOnly="true" header="序号" field="bh" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<fwyqCol width="50" type="1" readOnly="true" header="服务名称" field="mc" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<fwyqCol width="50" type="1" readOnly="true" header="品牌" field="pp" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<fwyqCol width="50" type="1" readOnly="true" header="重要程度" field="zycd" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<fwyqCol width="50" type="1" readOnly="true" header="指标需求" field="zbxq" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+		</fwyqCols>
+		<tbfwyqCols>
+			<tbfwyqCol width="50" type="1" readOnly="false" header="序" field="x" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbfwyqCol width="50" type="1" readOnly="false" header="名称" field="fwmc" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbfwyqCol width="50" type="1" readOnly="false" header="程度" field="cd" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<tbfwyqCol width="50" type="1" readOnly="false" header="需求指标" field="xqzb" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+		</tbfwyqCols>
+		<fwyqRows>
+			<fwyqRow bh="3.1" mc="原厂售后服务" pp="测试" zycd="一般" zbxq="售后"/>
+			<fwyqRow bh="3.1" mc="原厂售后服务" pp="" zycd="★" zbxq="售后信息"/>
+			<fwyqRow bh="3.1" mc="原厂售后服务" pp="" zycd="△" zbxq="服务"/>
+			<fwyqRow bh="3.1" mc="原厂售后服务" pp="" zycd="一般" zbxq="服务"/>
+			<fwyqRow bh="4.1" mc="原厂售后服务" pp="测试" zycd="一般" zbxq="售后"/>
+			<fwyqRow bh="4.1" mc="原厂售后服务" pp="" zycd="★" zbxq="售后信息"/>
+			<fwyqRow bh="4.1" mc="原厂售后服务" pp="" zycd="△" zbxq="服务"/>
+			<fwyqRow bh="4.1" mc="原厂售后服务" pp="" zycd="一般" zbxq="服务"/>
+			<fwyqRow bh="5.1" mc="原厂售后服务" pp="测试" zycd="一般" zbxq="售后"/>
+			<fwyqRow bh="5.1" mc="原厂售后服务" pp="" zycd="★" zbxq="售后信息"/>
+			<fwyqRow bh="5.1" mc="原厂售后服务" pp="" zycd="△" zbxq="服务"/>
+			<fwyqRow bh="5.1" mc="原厂售后服务" pp="" zycd="一般" zbxq="服务"/>
+		</fwyqRows>
+	</fwyqNew>
+	<qtyqNew>
+		<qtyqCols>
+			<qtyqCol width="50" type="1" readOnly="true" header="序号" field="bh" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="项目名称" field="mc" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="数量" field="sl" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="单位" field="dw" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="所属行业" field="hy" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="是否强制节能" field="qzjn" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="是否核心产品" field="hxcp" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="是否接受进口" field="jk" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="重要程度" field="zycd" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="指标需求" field="zbxq" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="参考图片" field="cktp" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<qtyqCol width="50" type="1" readOnly="true" header="品牌" field="pp" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+		</qtyqCols>
+		<tbqtyqCols>
+			<tbqtyqCol width="50" type="1" readOnly="false" header="名称" field="qtyqmc" align="center" isHeBing="1" FIELDTYPE="1" ISZHIBIAO="0" XIALACANSHU=""/>
+			<tbqtyqCol width="50" type="1" readOnly="false" header="程度" field="cd" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+			<tbqtyqCol width="50" type="1" readOnly="false" header="要求" field="yq" align="center" isHeBing="0" FIELDTYPE="1" ISZHIBIAO="1" XIALACANSHU=""/>
+		</tbqtyqCols>
+		<qtyqRows>
+			<qtyqRow bh="2.1" mc="计算机" sl="1" dw="台" hy="软件和信息技术服务业" qzjn="否" hxcp="是" jk="否" zycd="一般" zbxq="酷睿i7  9700" cktp="测试" pp="华为"/>
+			<qtyqRow bh="2.1" mc="计算机" sl="1" dw="台" hy="软件和信息技术服务业" qzjn="否" hxcp="是" jk="否" zycd="一般" zbxq="固态硬盘256G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.1" mc="计算机" sl="1" dw="台" hy="软件和信息技术服务业" qzjn="否" hxcp="是" jk="否" zycd="★" zbxq="16G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.2" mc="办公桌" sl="2" dw="台" hy="交通运输业" qzjn="是" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9700" cktp="测试" pp="红木"/>
+			<qtyqRow bh="2.2" mc="办公桌" sl="2" dw="台" hy="交通运输业" qzjn="是" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘256G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.2" mc="办公桌" sl="2" dw="台" hy="交通运输业" qzjn="是" hxcp="否" jk="否" zycd="一般" zbxq="16G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.3" mc="键盘" sl="3" dw="台" hy="仓储业" qzjn="否" hxcp="否" jk="否" zycd="△" zbxq="酷睿i7  9700" cktp="测试" pp="华为"/>
+			<qtyqRow bh="2.3" mc="键盘" sl="3" dw="台" hy="仓储业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘256G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.3" mc="键盘" sl="3" dw="台" hy="仓储业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="16G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.4" mc="鼠标" sl="4" dw="台" hy="邮政业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9700" cktp="测试" pp="华为"/>
+			<qtyqRow bh="2.4" mc="鼠标" sl="4" dw="台" hy="邮政业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘256G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.4" mc="鼠标" sl="4" dw="台" hy="邮政业" qzjn="否" hxcp="否" jk="否" zycd="△" zbxq="16G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.5" mc="耳机" sl="5" dw="个" hy="软件和信息技术服务业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9701" cktp="测试" pp="华为"/>
+			<qtyqRow bh="2.5" mc="耳机" sl="5" dw="个" hy="软件和信息技术服务业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘257G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9702" cktp="测试" pp="华为"/>
+			<qtyqRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘258G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9703" cktp="测试" pp="华为"/>
+			<qtyqRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘259G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9704" cktp="测试" pp="华为"/>
+			<qtyqRow bh="2.6" mc="耳机" sl="6" dw="个" hy="餐饮业" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘260G" cktp="测试" pp=""/>
+			<qtyqRow bh="2.9" mc="耳机" sl="9" dw="个" hy="物业管理" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="酷睿i7  9705" cktp="测试" pp="华为"/>
+			<qtyqRow bh="2.9" mc="耳机" sl="9" dw="个" hy="物业管理" qzjn="否" hxcp="否" jk="否" zycd="一般" zbxq="固态硬盘261G" cktp="测试" pp=""/>
+		</qtyqRows>
+	</qtyqNew>
+</xiangmuinfo>

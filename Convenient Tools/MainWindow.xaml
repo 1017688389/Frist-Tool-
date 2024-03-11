@@ -1,0 +1,76 @@
+﻿<Window x:Class="Convenient_Tools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Convenient_Tools"
+        mc:Ignorable="d"
+        Title="工具" Height="500" Width="900" Topmost="{Binding IsTopMost}" 
+        >
+    <Window.Resources>
+
+    </Window.Resources>
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ToolBar >
+            <CheckBox Content="窗口置顶" x:Name="ck" IsChecked="{Binding IsChecked}" Height="40"  Width="70"/>
+            <Button Name="btnWeather"  Height="40"  Width="70" Click="btn_GetWeather">
+                <Label Content="看看天气"/>
+            </Button>
+            <TextBlock VerticalAlignment="Center" Text="得分:"/>
+            <TextBlock VerticalAlignment="Center" x:Name="Score" Text="0"/>
+        </ToolBar>
+        <Border Grid.Row="1">
+            <Grid>
+                <TabControl x:Name="Tab" TabStripPlacement="Left" SelectedIndex="3" SelectionChanged="Tab_SelectionChanged">
+                    <TabItem Header="剪切板" Height="50">
+                        <RichTextBox x:Name="CutText" Margin="0,0,0,0" AutoWordSelection="True" MouseDoubleClick="CopyLine"/>
+                    </TabItem>
+                    <TabItem Header="技术日志" Height="50">
+                        <RichTextBox x:Name="TechText" Margin="0,0,0,0" AutoWordSelection="True" MouseDoubleClick="CopyLine"/>
+                    </TabItem>
+                    <TabItem Header="日志记录" Height="50">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="200"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,10">
+                                <Label Content="日期:"/>
+                                <DatePicker x:Name="log_TxtData" Width="100" Height="25" />
+                                <Label Content="耗时:"/>
+                                <TextBox x:Name="log_TxtTime" Width="40" Height="25"/>
+                                <Label Content="h"/>
+                                <Label Content="任务类型:"/>
+                                <ComboBox x:Name="log_TxtType" Width="80" Height="25" 
+                                          ItemsSource="{Binding TypeItems}" SelectedIndex="0"/>
+                                <Label Content="任务内容："/>
+                                <TextBox x:Name="txt" Width="250" Height="25"/>
+                                <Button Content="记录"  Height="25" Width="50" Click="Button_Click"/>
+                                <Button Content="导出" Height="25" Width="50" Click="Button_Click_1" />
+                            </StackPanel>
+                            <RichTextBox Grid.Row="1" x:Name="log_RichText">
+
+                            </RichTextBox>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="按钮色块" x:Name="ColorButton" Height="50" Loaded="ColorButton_Loaded">
+                        <Grid x:Name="btnGrid" Height="auto" Width="auto"/>
+                    </TabItem>
+                    <TabItem Header="小小游戏" x:Name="Game" Height="50">
+                        <Canvas x:Name="GameCanvas" KeyDown="GameCanvas_KeyDown" >
+                            <Image x:Name="sensei" Source="Resources/Sensei.png" Height="50" Focusable="True" 
+                                   KeyDown="GameCanvas_KeyDown" />
+                        </Canvas>
+                    </TabItem>
+                    <TabItem Header="天气预报" x:Name="Weather" Height="50" Visibility="Hidden">
+                        <DataGrid x:Name="tree" />
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
